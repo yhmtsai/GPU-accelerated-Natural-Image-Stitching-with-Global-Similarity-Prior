@@ -14,7 +14,7 @@ Orignal version calculate the distance of each pair. We use linear algebra to ex
 ## Solve CG with initial guess
 Original version use zero-initialization for iteration. We use vertices information as initial guess to accelerate the convergence of CG solving.
 Below is the comparison between initial guess and zero-initialization under same iteration number.
-Unfortunately, initial guess with vertices goes bad when iteration carry on, it seems that this thought only applys when we terminates the iteration at early phase.
+Unfortunately, initial guess with vertices become worse when iteration carry on under same tolerance, it seems that this thought only applys when we terminates the iteration at early phase.
 
 initial guess              |  zero initialization
 :-------------------------:|:-------------------------:
