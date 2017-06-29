@@ -16,7 +16,7 @@ Original version use zero-initialization for iteration. We use vertices informat
 Below is the comparison between initial guess and zero-initialization under same iteration number.
 Unfortunately, initial guess with vertices become worse when iteration carry on under same tolerance, it seems that this thought only applys when we terminates the iteration at early phase.
 
-initial guess              |  zero initialization
+initial guess (150 iterations) |  zero initialization (150 iterations)
 :-------------------------:|:-------------------------:
 ![Initial Guess](images/initial_guess.png) | ![Zero Initialization](images/zero_initialization.png)
 
