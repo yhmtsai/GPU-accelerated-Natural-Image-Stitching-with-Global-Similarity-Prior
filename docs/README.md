@@ -16,10 +16,7 @@ Original version use zero-initialization for iteration. We use vertices informat
 Below is the comparison between initial guess and zero-initialization under same iteration number.
 Unfortunately, initial guess with vertices goes bad when iteration carry on, it seems that this thought only applys when we terminates the iteration at early phase.
 
-<figure class="half">
-    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/blob/master/docs/images/initial_guess.png">
-    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/blob/master/docs/images/zero_initialization.png">
-</figure>
+![Get Distance Math](images/initial_guess.png) ![Get Distance Math](images/zero_initialization.png)
 
 ## Change other settings
 We found the linear systems are same. It just use different blending. Thus, we reduce the number of linear system. Moreover, human eyes can't distinguish tiny details, so we use less tolarence = 1e-8 not 1e-16 to improve the performance.
