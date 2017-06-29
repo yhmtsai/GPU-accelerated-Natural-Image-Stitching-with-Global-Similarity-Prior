@@ -288,6 +288,9 @@ vector<vector<Point2> > MeshOptimization::getImageVerticesBySolving(vector<Tripl
     SparseMatrix<double> A(equations, getVerticesCount());
     VectorXd b = VectorXd::Zero(equations), x;
     VectorXd x0 = VectorXd::Zero(getVerticesCount());
+    // lscg.setMaxIterations(200);
+    double tol=1e-8;
+    lscg.setTolerance(tol);
 #ifndef NDEBUG
     TimeCalculator timer;
     timer.start();
@@ -297,7 +300,7 @@ vector<vector<Point2> > MeshOptimization::getImageVerticesBySolving(vector<Tripl
     for(int i = 0; i < _b_vector.size(); ++i) {
         b[_b_vector[i].first] = _b_vector[i].second;
     }
-    double alpha=0;
+    double alpha=0.5;
     for(int i = 0, x_index = 0; i < multi_images->images_data.size(); ++i) {
         vector<Point2> ref = multi_images->images_data[i].mesh_2d->getVertices();
         int count = ref.size() * DIMENSION_2D;
