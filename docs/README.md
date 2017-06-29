@@ -2,7 +2,11 @@
 This is the final project of 2017S GPGPU course. We follow this paper, Natural Image Stitching with Global Similarity Prior [1], and get its github source code[3]. We use GPU and change some settings to improve its performace.
 
 ## Profiling
-
+We found the bottleneck of original version of image stitching are from three main part:
+1. get feature pairs distance
+2. least squares conjugate gradient solving
+3. SVD
+![Profiling Before](images/profiling-before.png)
 ## Change the getdistance function on GPU
 Orignal version calculate the distance of each pair. We use linear algebra to express the function. It can be done by blas-2 and blas-3 operations.
 ![Get Distance Math](images/get_distance_math.png)
