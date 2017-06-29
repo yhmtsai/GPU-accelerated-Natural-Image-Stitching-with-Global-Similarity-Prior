@@ -26,7 +26,7 @@ We found the linear systems are same. It just use different blending. Thus, we r
 After all improvement, we can use 55 ~ 65 % time of orignal version.
 Each step contains those improving steps before it.
 ![Time Percent](images/time_percent.png)
-Below is the profiling after all improvement, we successfully reduce the percentage of distance computing and CG solving.
+Below is the profiling after all improvement, we successfully reduce the timing of distance computing and CG solving by 30% and 12%.
 
 ![Profiling After](images/profiling-after.png)
 ## Future work
