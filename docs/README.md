@@ -1,3 +1,10 @@
+## Description
+This is the final project of 2017S GPGPU course. We follow this paper, Natural Image Stitching with Global Similarity Prior [1], and get its github source code[2]. We use GPU and change some settings to improve its performace.
+
+## Reference
+[1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
+[2] https://github.com/nothinglo/NISwGSP, C++ implementation of [1]
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
