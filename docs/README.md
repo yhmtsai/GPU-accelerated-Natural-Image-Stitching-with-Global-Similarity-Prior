@@ -4,11 +4,10 @@ This is the final project of 2017S GPGPU course. We follow this paper, Natural I
 ## Profiling
 
 ## Change the getdistance function on GPU
+Orignal version calculate the distance of each pair. We use linear algebra to express the function. It can be done by blas-2 and blas-3 operations.
 ![Get Distance Math](images/get_distance_math.png)
-## Reduce the number of linear systems
-
-## Change solver settings
-
+## Change other settings
+We found the linear systems are same. It just use different blending. Thus, we reduce the number of linear system. Moreover, human eyes can't distinguish tiny details, so we use less tolarence = 1e-8 not 1e-16 to improve the performance.
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
 
