@@ -17,8 +17,8 @@ Below is the comparison between initial guess and zero-initialization under same
 Unfortunately, initial guess with vertices goes bad when iteration carry on, it seems that this thought only applys when we terminates the iteration at early phase.
 
 <figure class="half">
-    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/docs/images/initial_guess.png">
-    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/docs/images/zero_initialization.png">
+    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/blob/master/docs/images/initial_guess.png">
+    <img src="https://github.com/yhmtsai/GPU-accelerated-Natural-Image-Stitching-with-Global-Similarity-Prior/blob/master/docs/images/zero_initialization.png">
 </figure>
 
 ## Change other settings
