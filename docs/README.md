@@ -11,13 +11,23 @@ We found the bottleneck of original version of image stitching are from three ma
 ## Change the getdistance function on GPU
 Orignal version calculate the distance of each pair. We use linear algebra to express the function. It can be done by blas-2 and blas-3 operations.
 ![Get Distance Math](images/get_distance_math.png)
+## Solve CG with initial guess
+Original version use zero-initialization for iteration. We use vertices information as initial guess to accelerate the convergence of CG solving.
+Below is the comparison between initial guess and zero-initialization under same iteration number.
+Unfortunately, initial guess with vertices goes bad when iteration carry on, it seems that this thought only applys when we terminates the iteration at early phase.
+
+<figure class="half">
+    <img src="images/initial_guess.png">
+    <img src="images/zero-initialization.png">
+</figure>
+
 ## Change other settings
 We found the linear systems are same. It just use different blending. Thus, we reduce the number of linear system. Moreover, human eyes can't distinguish tiny details, so we use less tolarence = 1e-8 not 1e-16 to improve the performance.
 ## Results
 After all improvement, we can use 55 ~ 65 % time of orignal version.
 Each step contains those improving steps before it.
 ![Time Percent](images/time_percent.png)
-Below is the profiling after all improvement:
+Below is the profiling after all improvement, we successfully reduce the percentage of distance computing and CG solving.
 
 ![Profiling After](images/profiling-after.png)
 ## Future work
