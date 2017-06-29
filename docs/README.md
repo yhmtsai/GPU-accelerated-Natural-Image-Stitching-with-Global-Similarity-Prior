@@ -12,13 +12,19 @@ We found the linear systems are same. It just use different blending. Thus, we r
 After all improvement, we can use 55 ~ 65 % time of orignal version.
 Each step contains those improving steps before it.
 ![Time Percent](images/time_percent.png)
+## Future work
+1. Change the orignal data structure. Make it store data as matrix not many short vectors.
+2. Change the solver to make it run another case.
+3. 
+## More detail
+There is our presentation slides : [google slide](https://goo.gl/pu3Eih)
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
 
 ## Reference
 - [1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
 - [2] Zaragoza, J., Chin, T.J., Brown, M.S., Suter, D.: As-projective-as-possible image stitching with moving DLT. In: Proceedings of the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2013, pp. 2339–2346 (2013)
-- [3] https://github.com/nothinglo/NISwGSP, C++ implementation of [1]
+- [3] [github source](https://github.com/nothinglo/NISwGSP), C++ implementation of [1]
 
 ## Welcome to GitHub Pages
 
