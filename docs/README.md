@@ -33,6 +33,7 @@ Below is the profiling after all improvement, we successfully reduce the timing 
 ## Future work
 1. Change the orignal data structure. Make it store data as matrix not many short vectors.
 2. Change the solver to make it run another case.
+3. Improve the SVD algorithm
 
 ## More detail
 There is our presentation slides : [google slide](https://goo.gl/pu3Eih)
