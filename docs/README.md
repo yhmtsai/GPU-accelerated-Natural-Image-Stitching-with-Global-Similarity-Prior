@@ -29,6 +29,10 @@ Each step contains those improving steps before it.
 Below is the profiling after all improvement, we successfully reduce the timing of distance computing and CG solving by 30% and 12%.
 
 ![Profiling After](images/profiling-after.png)
+orignal | ours
+:-------------------------:|:-------------------------:
+![orignal](images/SPHP-bridge-original.png) | ![Zero Initialization](images/SPHP-bridge-ours.png)
+
 
 ## Future work
 1. Change the orignal data structure. Make it store data as matrix not many short vectors.
