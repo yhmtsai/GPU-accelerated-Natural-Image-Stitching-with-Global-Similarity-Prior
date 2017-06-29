@@ -4,7 +4,7 @@ This is the final project of 2017S GPGPU course. We follow this paper, Natural I
 ## Profiling
 
 ## Change the getdistance function on GPU
-
+![Get Distance Math](images/get_distance_math.png)
 ## Reduce the number of linear systems
 
 ## Change solver settings
