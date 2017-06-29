@@ -1,13 +1,21 @@
-## Description
+## GPU-accelerated Natural Image Stitching with Global Similarity Prior
 This is the final project of 2017S GPGPU course. We follow this paper, Natural Image Stitching with Global Similarity Prior [1], and get its github source code[3]. We use GPU and change some settings to improve its performace.
+
+## Profiling
+
+## Change the getdistance function on GPU
+
+## Reduce the number of linear systems
+
+## Change solver settings
 
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
 
 ## Reference
-[1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
-[2] Zaragoza, J., Chin, T.J., Brown, M.S., Suter, D.: As-projective-as-possible image stitching with moving DLT. In: Proceedings of the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2013, pp. 2339–2346 (2013)
-[3] https://github.com/nothinglo/NISwGSP, C++ implementation of [1]
+- [1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
+- [2] Zaragoza, J., Chin, T.J., Brown, M.S., Suter, D.: As-projective-as-possible image stitching with moving DLT. In: Proceedings of the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2013, pp. 2339–2346 (2013)
+- [3] https://github.com/nothinglo/NISwGSP, C++ implementation of [1]
 
 ## Welcome to GitHub Pages
 
