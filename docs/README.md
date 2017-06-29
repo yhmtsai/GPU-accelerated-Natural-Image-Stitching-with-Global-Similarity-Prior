@@ -18,7 +18,7 @@ Unfortunately, initial guess with vertices goes bad when iteration carry on, it 
 
 <figure class="half">
     <img src="images/initial_guess.png">
-    <img src="images/zero-initialization.png">
+    <img src="images/zero_initialization.png">
 </figure>
 
 ## Change other settings
