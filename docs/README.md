@@ -17,6 +17,8 @@ We found the linear systems are same. It just use different blending. Thus, we r
 After all improvement, we can use 55 ~ 65 % time of orignal version.
 Each step contains those improving steps before it.
 ![Time Percent](images/time_percent.png)
+Below is the profiling after all improvement:
+![Profiling After](images/profiling-after.png)
 ## Future work
 1. Change the orignal data structure. Make it store data as matrix not many short vectors.
 2. Change the solver to make it run another case.
