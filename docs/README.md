@@ -8,6 +8,10 @@ Orignal version calculate the distance of each pair. We use linear algebra to ex
 ![Get Distance Math](images/get_distance_math.png)
 ## Change other settings
 We found the linear systems are same. It just use different blending. Thus, we reduce the number of linear system. Moreover, human eyes can't distinguish tiny details, so we use less tolarence = 1e-8 not 1e-16 to improve the performance.
+## Results
+After all improvement, we can use 55 ~ 65 % time of orignal version.
+Each step contains those improving steps before it.
+![Time Percent](images/time_percent.png)
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
 
