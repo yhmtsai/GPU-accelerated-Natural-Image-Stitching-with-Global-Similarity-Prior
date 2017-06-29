@@ -29,14 +29,16 @@ Each step contains those improving steps before it.
 Below is the profiling after all improvement, we successfully reduce the timing of distance computing and CG solving by 30% and 12%.
 
 ![Profiling After](images/profiling-after.png)
+
 ## Future work
 1. Change the orignal data structure. Make it store data as matrix not many short vectors.
 2. Change the solver to make it run another case.
+
 ## More detail
 There is our presentation slides : [google slide](https://goo.gl/pu3Eih)
+
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
-
 ChiaHo Lin, Institute of Electronics Engineering, National Taiwan University (chiahoo2004@gmail.com)
 
 ## Reference
