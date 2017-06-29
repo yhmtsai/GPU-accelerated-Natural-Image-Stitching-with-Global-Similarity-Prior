@@ -43,6 +43,6 @@ Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan Unive
 ChiaHo Lin, Institute of Electronics Engineering, National Taiwan University (chiahoo2004@gmail.com)
 
 ## Reference
-- [1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
-- [2] Zaragoza, J., Chin, T.J., Brown, M.S., Suter, D.: As-projective-as-possible image stitching with moving DLT. In: Proceedings of the 2013 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2013, pp. 2339–2346 (2013)
+- [1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” ECCV 2016
+- [2]  Julio Zaragoza, Tat-Jun Chin, Michael S. Brown, David Suter: "As-projective-as-possible image stitching with moving DLT" CVPR 2013, pp. 2339–2346 
 - [3] [github source](https://github.com/nothinglo/NISwGSP), C++ implementation of [1]
