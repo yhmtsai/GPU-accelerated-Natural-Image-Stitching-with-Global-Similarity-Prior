@@ -18,6 +18,7 @@ After all improvement, we can use 55 ~ 65 % time of orignal version.
 Each step contains those improving steps before it.
 ![Time Percent](images/time_percent.png)
 Below is the profiling after all improvement:
+
 ![Profiling After](images/profiling-after.png)
 ## Future work
 1. Change the orignal data structure. Make it store data as matrix not many short vectors.
@@ -27,6 +28,7 @@ Below is the profiling after all improvement:
 There is our presentation slides : [google slide](https://goo.gl/pu3Eih)
 ## Author
 Yuhsiang Tsai, Institute of Applied Mathematical Sciences, National Taiwan University (yhmtsai@gmail.com)
+ChiaHo Lin, Institute of Electronics Engineering, National Taiwan University (chiahoo2004@gmail.com)
 
 ## Reference
 - [1] Yu-Sheng Chen and Yung-Yu Chuang. “Natural Image Stitching with Global Similarity Prior.” Proceedings of European Conference on Computer Vision 2016 (ECCV 2016)
